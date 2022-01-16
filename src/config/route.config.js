@@ -24,19 +24,3 @@ export default (passport) => {
     })
   );
 };
-
-// Explanation
-// const req = {
-//     headers: {
-//         Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjE5NTIxODRkOWIwZjQ2ZTI0MDFhNTdiIiwiaWF0IjoxNjM3NzY3MTEyfQ.8BHsAcNZe_zuT-4pcqaZE63YmH3F_MfMobdGblzyTxQ"
-//     }
-// }
-// will be converted to
-// const req = {
-//     headers: {
-//         Authorization: "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjE5NTIxODRkOWIwZjQ2ZTI0MDFhNTdiIiwiaWF0IjoxNjM3NzY3MTEyfQ.8BHsAcNZe_zuT-4pcqaZE63YmH3F_MfMobdGblzyTxQ"
-//     }
-// }
-// const jwt__payload = {
-//     user: sfasf3423szdfa34324
-// }
